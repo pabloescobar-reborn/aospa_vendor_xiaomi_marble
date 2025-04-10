@@ -1084,7 +1084,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libopencv3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv3a.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib64/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpal_net_if.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalclient.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libpaperMode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpaperMode.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libqll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqll.so \
