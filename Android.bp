@@ -5545,7 +5545,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmi-stc-HW-modulate.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libdisplaydebug", "libsdm-color", "libbinder", "libtinyxml2_1", "libsdmutils", "libqservice", "libstagefright_foundation", "libxml2", "libmiXmlParser", "libeyecare", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libutils", "libdisplaydebug", "libsdm-color", "libbinder", "libtinyxml2_1", "libsdmutils", "libqservice", "libstagefright_foundation-v33", "libxml2", "libmiXmlParser", "libeyecare", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -5562,7 +5562,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmiBrightness.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libbinder", "libhidltransport", "libhidlbase", "libmiXmlParser", "android.frameworks.sensorservice@1.0", "libstagefright_foundation", "libMiDispDevManager", "libfpsmonitor", "libhdrmode", "libqservice", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libutils", "libbinder", "libhidltransport", "libhidlbase", "libmiXmlParser", "android.frameworks.sensorservice@1.0", "libstagefright_foundation-v33", "libMiDispDevManager", "libfpsmonitor", "libhdrmode", "libqservice", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7166,7 +7166,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libmisoundfx.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libstagefright_foundation", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libutils", "liblog", "libstagefright_foundation-v33", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
