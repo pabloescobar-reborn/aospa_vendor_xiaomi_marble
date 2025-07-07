@@ -3441,7 +3441,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/camera.xiaomi.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libhidlbase", "libhidltransport", "libui", "libcamera_metadata", "libutils", "libcom.xiaomi.metadatautils", "vendor.xiaomi.hardware.campostproc@1.0", "vendor.xiaomi.hardware.campostproc@1.0-service-impl", "vendor.xiaomi.hardware.bgservice@1.0", "vendor.xiaomi.hardware.bgservice@1.0-impl", "libcom.xiaomi.grallocutils", "libcom.xiaomi.debug", "libmialgoengine", "libz", "libdl", "libc", "libm", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libhidlbase", "libhidltransport", "libui", "libcamera_metadata", "libutils", "libcom.xiaomi.metadatautils", "vendor.xiaomi.hardware.campostproc@1.0_vendor", "vendor.xiaomi.hardware.campostproc@1.0-service-impl", "vendor.xiaomi.hardware.bgservice@1.0", "vendor.xiaomi.hardware.bgservice@1.0-impl", "libcom.xiaomi.grallocutils", "libcom.xiaomi.debug", "libmialgoengine", "libz", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7376,7 +7376,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libbase", "libbinder", "libhardware", "libhidlbase", "libfmq", "libhidltransport", "libcamera_metadata", "libcom.xiaomi.metadatautils", "libcom.xiaomi.debug", "libgrallocutils", "libmialgoengine", "vendor.xiaomi.hardware.campostproc@1.0", "android.hardware.camera.common@1.0", "android.hardware.graphics.mapper@4.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libcutils", "libbase", "libbinder", "libhardware", "libhidlbase", "libfmq", "libhidltransport", "libcamera_metadata", "libcom.xiaomi.metadatautils", "libcom.xiaomi.debug", "libgrallocutils", "libmialgoengine", "vendor.xiaomi.hardware.campostproc@1.0_vendor", "android.hardware.camera.common@1.0", "android.hardware.graphics.mapper@4.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7385,7 +7385,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.campostproc@1.0",
+	name: "vendor.xiaomi.hardware.campostproc@1.0_vendor",
+	stem: "vendor.xiaomi.hardware.campostproc@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
