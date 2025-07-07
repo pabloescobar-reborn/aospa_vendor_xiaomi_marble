@@ -727,8 +727,6 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper_secure \
     libQnnHtp \
     libQnnHtpPrepare \
-    libQnnHtpV69 \
-    libQnnHtpV69Skel \
     libQnnHtpV69Stub \
     com.xiaomi.plugin.anchor \
     com.xiaomi.plugin.arcsoftsll \
@@ -1090,6 +1088,8 @@ PRODUCT_PACKAGES += \
     libMIAIHDR_skel \
     libQ6MSFR_manager_skel \
     libQnnHtpAltPrepV69Skel \
+    libQnnHtpV69 \
+    libQnnHtpV69Skel \
     libSnpeDspV65Skel \
     libSnpeDspV66Skel \
     libSnpeHtpV68Skel \

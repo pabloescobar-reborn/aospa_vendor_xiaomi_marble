@@ -1856,42 +1856,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libQnnHtpV69",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib64/camera/libQnnHtpV69.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "camera",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnHtpV69Skel",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib64/camera/libQnnHtpV69Skel.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "camera",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libQnnHtpV69Stub",
 	owner: "xiaomi",
 	strip: {
@@ -7775,6 +7739,24 @@ prebuilt_rfsa {
 	filename: "libQnnHtpAltPrepV69Skel.so",
 	owner: "xiaomi",
 	src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpAltPrepV69Skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libQnnHtpV69",
+	filename: "libQnnHtpV69.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV69.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libQnnHtpV69Skel",
+	filename: "libQnnHtpV69Skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV69Skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
 }
