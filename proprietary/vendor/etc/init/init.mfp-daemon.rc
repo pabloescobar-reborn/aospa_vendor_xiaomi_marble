@@ -56,4 +56,7 @@ on post-fs-data
 on property:vendor.fps_hal.restartimes=max
     stop mfp-daemon
 
+on property:vendor.fp.dummy.dfs=*
+    stop mfp-daemon
+    start mfp-daemon
 

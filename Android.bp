@@ -12,7 +12,7 @@ soong_namespace {
         "hardware/xiaomi",
         "vendor/qcom/common/vendor/adreno-s",
         "vendor/qcom/common/vendor/display/5.10",
-        "vendor/qcom/common/vendor/media",
+        "vendor/qcom/common/vendor/media/5.10",
         "vendor/qcom/common/vendor/perf",
         "vendor/qcom/common/vendor/wlan",
         "vendor/xiaomi/sm8450-common",
@@ -3567,7 +3567,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so"],
-			shared_libs: ["libhidlbase", "libhidltransport", "libutils", "liblog", "libcutils", "libhardware", "libbase", "libssccalapi@2.0", "libsnsapi", "vendor.xiaomi.sensor.citsensorservice@1.1", "vendor.xiaomi.sensor.citsensorservice@2.0", "android.frameworks.sensorservice@1.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "android.hardware.graphics.common@1.2", "vendor.display.config@2.0", "libqdutils", "vendor.qti.hardware.display.composer@3.0", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libdisplayconfig.qti", "libtinyxml2", "libjsoncpp", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libhidltransport", "libutils", "liblog", "libcutils", "libhardware", "libbase", "libssccalapi@2.0", "libsnsapi", "vendor.xiaomi.sensor.citsensorservice@1.1", "vendor.xiaomi.sensor.citsensorservice@2.0", "android.frameworks.sensorservice@1.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "android.hardware.graphics.common@1.2", "vendor.display.config@2.0", "libqdutils", "vendor.qti.hardware.display.composer@3.0", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libdisplayconfig.qti", "libtinyxml2", "libjsoncpp", "libmisight", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6721,7 +6721,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libssccalapi@2.0.so"],
-			shared_libs: ["libprotobuf-cpp-lite-3.9.1-vendorcompat", "liblog", "libsnsapi", "libsensorslog", "libssc", "libutils", "libcutils", "libhardware", "libhidltransport", "libhidlbase", "android.hardware.sensors@2.0", "android.hardware.sensors@2.0-ScopedWakelock", "android.frameworks.sensorservice@1.0", "libjsoncpp", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libprotobuf-cpp-lite-3.9.1-vendorcompat", "liblog", "libsnsapi", "libsensorslog", "libssc", "libutils", "libcutils", "libhardware", "libhidltransport", "libhidlbase", "android.hardware.sensors@2.0", "android.hardware.sensors@2.0-ScopedWakelock", "android.frameworks.sensorservice@1.0", "libjsoncpp", "libmisight", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8250,7 +8250,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/mfp-daemon"],
-			shared_libs: ["libcutils", "liblog", "libhidlbase", "libhardware", "libutils", "android.hardware.biometrics.fingerprint@2.1", "vendor.xiaomi.hardware.fingerprintextension@1.0", "libvndksupport", "libbinder", "com.fingerprints.extension@3.0", "vendor.xiaomi.hardware.fx.tunnel@1.0", "vendor.xiaomi.hw.touchfeature@1.0", "libstagefright_foundation-v33", "android.frameworks.sensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libhidlbase", "libhardware", "libutils", "android.hardware.biometrics.fingerprint@2.1", "vendor.xiaomi.hardware.fingerprintextension@1.0", "libvndksupport", "libbinder", "com.fingerprints.extension@3.0", "vendor.xiaomi.hardware.fx.tunnel@1.0", "vendor.xiaomi.hw.touchfeature@1.0", "libstagefright_foundation-v33", "android.frameworks.sensorservice@1.0", "libmisight", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
